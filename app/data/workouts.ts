@@ -4,98 +4,14 @@ export const workoutData = {
     protocolo_boneca_de_aco: {
       treinos: {
         A: {
-          grupo_muscular: "Inferiores",
+          grupo_muscular: "Glúteos e Quadríceps",
           exercicios: [
-            {
-              nome: "Pélvica barra",
-              series: 4,
-              repeticoes: "12-10-8-falha",
-              descanso: "90 segs",
-              instrucoes: [
-                "Deite-se no chão com os joelhos dobrados e os pés apoiados no chão",
-                "Posicione a barra sobre o quadril, protegida com almofada",
-                "Eleve o quadril até formar uma linha reta com o corpo",
-                "Desça controladamente e repita o movimento"
-              ],
-              dicas: [
-                "Mantenha os glúteos contraídos durante todo o movimento",
-                "Não deixe o quadril cair bruscamente",
-                "Mantenha os pés totalmente apoiados"
-              ]
-            },
-            {
-              nome: "Abdução cabo cross",
-              series: 4,
-              repeticoes: "15-12-10-8",
-              descanso: "90 segs",
-              instrucoes: [
-                "Prenda o cabo no tornozelo",
-                "Mantenha-se em pé ao lado do aparelho",
-                "Eleve a perna lateralmente mantendo-a estendida",
-                "Retorne controladamente à posição inicial"
-              ],
-              dicas: [
-                "Evite inclinar o tronco para o lado oposto",
-                "Mantenha o core ativado",
-                "Foque na contração do glúteo médio"
-              ]
-            },
-            {
-              nome: "Afundo no smith",
-              series: 4,
-              repeticoes: 15,
-              descanso: "90 segs",
-              instrucoes: [
-                "Posicione-se em pé sob a barra do smith",
-                "Dê um passo à frente mantendo o tronco ereto",
-                "Flexione os joelhos até formar um ângulo de 90°",
-                "Retorne à posição inicial empurrando através do calcanhar"
-              ],
-              dicas: [
-                "Mantenha o joelho alinhado com o pé da frente",
-                "Não deixe o joelho ultrapassar a ponta do pé",
-                "Mantenha o core ativado durante todo o movimento"
-              ]
-            },
-            {
-              nome: "Cadeira extensora",
-              series: 4,
-              repeticoes: "10-12-15-falha",
-              descanso: "90 segs",
-              instrucoes: [
-                "Sente-se na cadeira com as costas apoiadas",
-                "Ajuste o apoio da perna próximo aos tornozelos",
-                "Estenda os joelhos completamente",
-                "Volte controladamente à posição inicial"
-              ],
-              dicas: [
-                "Faça uma pausa de 1 segundo na contração",
-                "Não deixe o peso cair na volta",
-                "Mantenha os pés apontados para frente"
-              ]
-            },
-            {
-              nome: "Búlgaro + stiff halteres",
-              series: 4,
-              repeticoes: 10,
-              descanso: "90 segs",
-              instrucoes: [
-                "Posicione um pé no banco atrás de você",
-                "Segure os halteres ao lado do corpo",
-                "Desça até o joelho quase tocar o chão",
-                "Suba e emende com o stiff na mesma perna"
-              ],
-              dicas: [
-                "Mantenha o tronco ereto durante todo o movimento",
-                "Alterne as pernas a cada série",
-                "Foque na contração dos glúteos no stiff"
-              ]
-            },
             {
               nome: "Cadeira abdutora",
               series: 4,
-              repeticoes: "Falha",
+              repeticoes: "15-12-10-8-6",
               descanso: "90 segs",
+              musculo_alvo: "Glúteo médio e mínimo",
               instrucoes: [
                 "Sente-se com as costas apoiadas",
                 "Posicione as pernas nas almofadas laterais",
@@ -109,151 +25,142 @@ export const workoutData = {
               ]
             },
             {
-              nome: "Gêmeos sentado",
+              nome: "Pélvica barra",
               series: 4,
-              repeticoes: 15,
+              repeticoes: "Falha",
               descanso: "90 segs",
+              musculo_alvo: "Glúteo máximo e isquiotibiais",
               instrucoes: [
-                "Sente-se na máquina com os joelhos flexionados",
-                "Posicione a planta dos pés na plataforma",
-                "Eleve os calcanhares o máximo possível",
-                "Desça controladamente até sentir o alongamento"
+                "Deite-se no chão com os joelhos dobrados e os pés apoiados no chão",
+                "Posicione a barra sobre o quadril, protegida com almofada",
+                "Eleve o quadril até formar uma linha reta com o corpo",
+                "Desça controladamente e repita o movimento"
               ],
               dicas: [
-                "Faça o movimento completo",
-                "Mantenha os joelhos estáveis",
-                "Controle a fase excêntrica"
+                "Mantenha os glúteos contraídos durante todo o movimento",
+                "Não deixe o quadril cair bruscamente",
+                "Mantenha os pés totalmente apoiados"
               ]
             },
             {
-              nome: "Bicicleta",
-              series: 1,
-              repeticoes: "15 minutos",
-              descanso: "000000",
+              nome: "Terra sumo",
+              series: 4,
+              repeticoes: 15,
+              descanso: "90 segs",
+              musculo_alvo: "Glúteos, quadríceps e isquiotibiais",
               instrucoes: [
-                "Ajuste o banco na altura correta",
-                "Mantenha uma cadência constante",
-                "Alterne entre sentar e pedalar em pé",
-                "Mantenha a respiração controlada"
+                "Posicione-se em pé sob a barra do smith",
+                "Dê um passo à frente mantendo o tronco ereto",
+                "Flexione os joelhos até formar um ângulo de 90°",
+                "Retorne à posição inicial empurrando através do calcanhar"
               ],
               dicas: [
-                "Mantenha uma resistência moderada",
-                "Hidrate-se durante o exercício",
-                "Monitore sua frequência cardíaca"
+                "Mantenha o joelho alinhado com o pé da frente",
+                "Não deixe o joelho ultrapassar a ponta do pé",
+                "Mantenha o core ativado durante todo o movimento"
+              ]
+            },
+            {
+              nome: "Búlgaro + stiff",
+              series: 4,
+              repeticoes: "15 cada",
+              descanso: "90 segs",
+              musculo_alvo: "Quadríceps, glúteos e isquiotibiais",
+              instrucoes: [
+                "Posicione um pé no banco atrás de você",
+                "Segure os halteres ao lado do corpo",
+                "Desça até o joelho quase tocar o chão",
+                "Suba e emenda com o stiff na mesma perna"
+              ],
+              dicas: [
+                "Mantenha o tronco ereto durante todo o movimento",
+                "Alterne as pernas a cada série",
+                "Foque na contração dos glúteos no stiff"
+              ]
+            },
+            {
+              nome: "Leg press unilateral",
+              series: 4,
+              repeticoes: "10-12-15-20",
+              descanso: "90 segs",
+              musculo_alvo: "Quadríceps e glúteos",
+              instrucoes: [
+                "Posicione os pés na plataforma",
+                "Flexione os joelhos completamente",
+                "Empurre o peso controladamente",
+                "Não trave os joelhos no topo"
+              ],
+              dicas: [
+                "Mantenha os pés alinhados",
+                "Respire adequadamente",
+                "Mantenha a lombar apoiada"
               ]
             }
           ]
         },
         B: {
-          grupo_muscular: "Superiores",
+          grupo_muscular: "Peitoral e Tríceps",
           exercicios: [
             {
-              nome: "Remada curvada",
+              nome: "Supino reto",
               series: 4,
               repeticoes: 8,
-              descanso: "90 segs",
+              descanso: "45 segs",
+              musculo_alvo: "Peitoral maior",
               instrucoes: [
-                "Segure a barra com pegada pronada",
-                "Flexione levemente os joelhos e incline o tronco",
-                "Puxe a barra até tocar o abdômen",
-                "Retorne controladamente à posição inicial"
+                "Deite no banco com pés apoiados no chão",
+                "Pegada na barra pouco mais larga que os ombros",
+                "Desça a barra controladamente até o peito",
+                "Empurre a barra para cima"
               ],
               dicas: [
-                "Mantenha as costas retas",
-                "Puxe com os cotovelos próximos ao corpo",
-                "Contraia as escápulas no topo do movimento"
+                "Mantenha os cotovelos a 45° do corpo",
+                "Escápulas retraídas no banco",
+                "Respire: inspire na descida, expire na subida"
               ]
             },
             {
-              nome: "Remada baixa triângulo",
+              nome: "Supino inclinado",
               series: 4,
-              repeticoes: 15,
-              descanso: "90 segs",
+              repeticoes: 8,
+              descanso: "45 segs",
+              musculo_alvo: "Peitoral superior",
               instrucoes: [
-                "Sente-se com os pés apoiados",
-                "Segure o triângulo com os braços estendidos",
-                "Puxe em direção ao abdômen",
-                "Volte controladamente"
+                "Ajuste o banco a 30-45 graus",
+                "Segure os halteres ao lado do peito",
+                "Pressione para cima e junte os halteres no topo",
+                "Desça controladamente abrindo os cotovelos"
               ],
               dicas: [
-                "Mantenha o peito aberto",
-                "Cotovelos próximos ao corpo",
-                "Foque na contração das costas"
+                "Mantenha os punhos retos",
+                "Não bata os halteres no topo",
+                "Foque na contração do peito"
               ]
             },
             {
-              nome: "Puxador frente barra grande",
+              nome: "Crucifixo",
               series: 4,
-              repeticoes: 15,
-              descanso: "90 segs",
+              repeticoes: 8,
+              descanso: "45 segs",
+              musculo_alvo: "Peitoral",
               instrucoes: [
-                "Segure a barra com pegada aberta",
-                "Mantenha o tronco levemente inclinado para trás",
-                "Puxe a barra até a altura do peito",
-                "Retorne controladamente à posição inicial"
+                "Deite no banco com os braços abertos",
+                "Mantenha leve flexão nos cotovelos",
+                "Eleve os halteres até se encontrarem",
+                "Desça controladamente"
               ],
               dicas: [
-                "Mantenha os cotovelos apontando para baixo",
-                "Foque na contração das costas",
-                "Evite balançar o corpo"
-              ]
-            },
-            {
-              nome: "Pulldown no cross",
-              series: 4,
-              repeticoes: 15,
-              descanso: "90 segs",
-              instrucoes: [
-                "Ajuste a polia na posição alta",
-                "Segure as alças com os braços estendidos",
-                "Puxe para baixo mantendo os cotovelos próximos ao corpo",
-                "Retorne controladamente"
-              ],
-              dicas: [
-                "Mantenha o tronco estável",
-                "Foque na contração das costas",
-                "Evite usar impulso"
-              ]
-            },
-            {
-              nome: "Desenvolvimento militar",
-              series: 3,
-              repeticoes: 15,
-              descanso: "90 segs",
-              instrucoes: [
-                "Segure a barra na altura dos ombros",
-                "Pressione a barra para cima",
-                "Estenda completamente os braços",
-                "Retorne controladamente"
-              ],
-              dicas: [
-                "Mantenha o core ativado",
-                "Evite arquear as costas",
-                "Respire durante o movimento"
-              ]
-            },
-            {
-              nome: "Elevação lateral + frontal",
-              series: 4,
-              repeticoes: 15,
-              descanso: "90 segs",
-              instrucoes: [
-                "Segure os halteres ao lado do corpo",
-                "Alterne entre elevação lateral e frontal",
-                "Mantenha os braços levemente flexionados",
-                "Retorne controladamente"
-              ],
-              dicas: [
-                "Mantenha os punhos alinhados",
-                "Evite usar impulso",
-                "Foque na contração dos deltoides"
+                "Mantenha a mesma flexão nos cotovelos",
+                "Foque na contração do peitoral",
+                "Controle o movimento na descida"
               ]
             },
             {
               nome: "Tríceps pulley",
               series: 4,
-              repeticoes: "Falha",
-              descanso: "90 segs",
+              repeticoes: 15,
+              descanso: "45 segs",
+              musculo_alvo: "Tríceps braquial",
               instrucoes: [
                 "Segure a barra com pegada pronada",
                 "Mantenha os cotovelos junto ao corpo",
@@ -262,54 +169,39 @@ export const workoutData = {
               ],
               dicas: [
                 "Mantenha os cotovelos fixos",
-                "Foque na contração do tríceps",
-                "Evite usar impulso"
-              ]
-            },
-            {
-              nome: "Francesa halteres",
-              series: 8,
-              repeticoes: 8,
-              descanso: "90 segs",
-              instrucoes: [
-                "Deite no banco com os braços estendidos",
-                "Flexione os cotovelos levando os halteres à testa",
-                "Estenda os braços retornando à posição inicial",
-                "Mantenha os cotovelos apontados para cima"
-              ],
-              dicas: [
-                "Mantenha os cotovelos estáveis",
-                "Controle o movimento na descida",
+                "Evite usar impulso",
                 "Foque na contração do tríceps"
               ]
             },
             {
-              nome: "Abdominal remador",
+              nome: "Francesa + banco",
               series: 4,
-              repeticoes: 15,
-              descanso: "90 segs",
+              repeticoes: 10,
+              descanso: "45 segs",
+              musculo_alvo: "Tríceps braquial",
               instrucoes: [
-                "Sente-se com os joelhos flexionados",
-                "Incline o tronco levemente para trás",
-                "Flexione o tronco aproximando o peito dos joelhos",
-                "Retorne controladamente"
+                "Deite no banco segurando os halteres",
+                "Flexione os cotovelos até 90 graus",
+                "Estenda os braços",
+                "Mantenha os cotovelos apontados para cima"
               ],
               dicas: [
-                "Mantenha a lombar apoiada",
-                "Controle a respiração",
-                "Foque na contração abdominal"
+                "Mantenha os cotovelos estáveis",
+                "Não deixe os halteres baterem",
+                "Foque na contração do tríceps"
               ]
             }
           ]
         },
         C: {
-          grupo_muscular: "Inferiores",
+          grupo_muscular: "Posterior de Coxa e Glúteos",
           exercicios: [
             {
-              nome: "Mesa flexora",
-              series: 8,
-              repeticoes: "8 (carga máxima)",
+              nome: "Mesa flexora isométrica",
+              series: 3,
+              repeticoes: "8 (3 segs isometria na subida)",
               descanso: "90 segs",
+              musculo_alvo: "Isquiotibiais",
               instrucoes: [
                 "Deite na mesa flexora com os joelhos alinhados",
                 "Flexione os joelhos puxando o peso",
@@ -323,27 +215,11 @@ export const workoutData = {
               ]
             },
             {
-              nome: "Flexora em pé",
-              series: 4,
-              repeticoes: 12,
-              descanso: "120 segs",
-              instrucoes: [
-                "Posicione-se na máquina com o tornozelo preso",
-                "Flexione o joelho ao máximo",
-                "Mantenha o quadril estável",
-                "Retorne controladamente"
-              ],
-              dicas: [
-                "Mantenha o tronco reto",
-                "Evite compensar com o quadril",
-                "Foque na contração do posterior"
-              ]
-            },
-            {
               nome: "Cadeira flexora",
               series: 4,
-              repeticoes: "Falha",
+              repeticoes: "8 (carga máxima, execução lenta)",
               descanso: "90 segs",
+              musculo_alvo: "Isquiotibiais",
               instrucoes: [
                 "Sente-se com as costas apoiadas",
                 "Flexione os joelhos completamente",
@@ -357,10 +233,29 @@ export const workoutData = {
               ]
             },
             {
-              nome: "Stiff + terra sumo",
+              nome: "Afundo no smith",
               series: 4,
-              repeticoes: 12,
+              repeticoes: "12 (descida lenta, subida rápida)",
               descanso: "90 segs",
+              musculo_alvo: "Quadríceps e glúteos",
+              instrucoes: [
+                "Posicione-se em pé sob a barra do smith",
+                "Dê um passo à frente mantendo o tronco ereto",
+                "Flexione os joelhos até formar um ângulo de 90°",
+                "Retorne à posição inicial empurrando através do calcanhar"
+              ],
+              dicas: [
+                "Mantenha o joelho alinhado com o pé da frente",
+                "Não deixe o joelho ultrapassar a ponta do pé",
+                "Mantenha o core ativado durante todo o movimento"
+              ]
+            },
+            {
+              nome: "Stiff + sumo",
+              series: 4,
+              repeticoes: "12 no Stiff/falha no sumo",
+              descanso: "90 segs",
+              musculo_alvo: "Isquiotibiais, glúteos e quadríceps",
               instrucoes: [
                 "Alterne entre stiff e terra sumo",
                 "Mantenha as costas retas em ambos",
@@ -374,168 +269,106 @@ export const workoutData = {
               ]
             },
             {
-              nome: "Glúteo estendido na apoleta",
-              series: 4,
-              repeticoes: 15,
+              nome: "Elíptico",
+              series: 1,
+              repeticoes: "12 minutos",
               descanso: "90 segs",
+              musculo_alvo: "Sistema cardiovascular, membros inferiores",
               instrucoes: [
-                "Posicione-se na apoleta com o joelho flexionado",
-                "Estenda a perna para trás",
-                "Mantenha o tronco estável",
-                "Retorne controladamente"
+                "Deite no banco com os braços abertos",
+                "Mantenha leve flexão nos cotovelos",
+                "Eleve os halteres até se encontrarem",
+                "Desça controladamente"
               ],
               dicas: [
-                "Mantenha o core ativado",
-                "Evite arquear as costas",
-                "Foque na contração do glúteo"
-              ]
-            },
-            {
-              nome: "Apoleta lateral",
-              series: 4,
-              repeticoes: 20,
-              descanso: "90 segs",
-              instrucoes: [
-                "Posicione-se lateralmente na apoleta",
-                "Eleve a perna lateralmente",
-                "Mantenha o tronco estável",
-                "Retorne controladamente"
-              ],
-              dicas: [
-                "Mantenha o quadril alinhado",
-                "Evite inclinar o tronco",
-                "Foque na contração do glúteo médio"
-              ]
-            },
-            {
-              nome: "Cadeira abdutora",
-              series: 4,
-              repeticoes: 20,
-              descanso: "90 segs",
-              instrucoes: [
-                "Sente-se com as costas apoiadas",
-                "Abra as pernas contra a resistência",
-                "Faça uma pausa na abertura máxima",
-                "Retorne controladamente"
-              ],
-              dicas: [
-                "Mantenha os pés alinhados",
-                "Evite usar impulso",
-                "Foque na contração dos abdutores"
-              ]
-            },
-            {
-              nome: "Passada com halteres",
-              series: 4,
-              repeticoes: "25 passos para cada perna",
-              descanso: "90 segs",
-              instrucoes: [
-                "Segure os halteres ao lado do corpo",
-                "Dê passos largos alternando as pernas",
-                "Mantenha o tronco ereto",
-                "Retorne à posição inicial"
-              ],
-              dicas: [
-                "Mantenha o joelho alinhado com o pé",
-                "Controle o movimento",
-                "Respire durante o exercício"
-              ]
-            },
-            {
-              nome: "Panturrilha livre",
-              series: 4,
-              repeticoes: 15,
-              descanso: "90 segs",
-              instrucoes: [
-                "Fique em pé na borda de um degrau",
-                "Eleve os calcanhares",
-                "Desça até sentir o alongamento",
-                "Repita o movimento"
-              ],
-              dicas: [
-                "Mantenha o equilíbrio",
-                "Faça o movimento completo",
-                "Controle a fase excêntrica"
+                "Mantenha a mesma flexão nos cotovelos",
+                "Foque na contração do peitoral",
+                "Controle o movimento na descida"
               ]
             }
           ]
         },
         D: {
-          grupo_muscular: "Superior",
+          grupo_muscular: "Costas e Bíceps",
           exercicios: [
             {
-              nome: "Supino inclinado + crucifixo inclinado",
+              nome: "Remada curvada",
               series: 4,
-              repeticoes: 10,
-              descanso: "90 segs",
-              instrucoes: [
-                "Realize o supino inclinado",
-                "Em seguida, faça o crucifixo",
-                "Mantenha o banco a 30-45 graus",
-                "Controle ambos os movimentos"
-              ],
-              dicas: [
-                "Mantenha as escápulas retraídas",
-                "Respire adequadamente",
-                "Foque na contração do peitoral"
-              ]
-            },
-            {
-              nome: "Serrote",
-              series: 4,
-              repeticoes: "8 (progredindo carga)",
-              descanso: "90 segs",
-              instrucoes: [
-                "Apoie um joelho e uma mão no banco",
-                "Puxe o halter até o peito",
-                "Mantenha o cotovelo próximo ao corpo",
-                "Retorne controladamente"
-              ],
-              dicas: [
-                "Mantenha as costas paralelas ao chão",
-                "Evite rotação do tronco",
-                "Foque na contração das costas"
-              ]
-            },
-            {
-              nome: "Puxador triângulo",
-              series: 4,
-              repeticoes: 15,
-              descanso: "90 segs",
-              instrucoes: [
-                "Segure o triângulo com pegada neutra",
-                "Puxe em direção ao peito",
-                "Mantenha os cotovelos próximos",
-                "Retorne controladamente"
-              ],
-              dicas: [
-                "Mantenha o peito elevado",
-                "Foque na contração das costas",
-                "Evite usar impulso"
-              ]
-            },
-            {
-              nome: "Remada baixa barra grande",
-              series: 4,
-              repeticoes: "Falha",
-              descanso: "90 segs",
+              repeticoes: 8,
+              descanso: "45 segs",
+              musculo_alvo: "Dorsal",
               instrucoes: [
                 "Segure a barra com pegada pronada",
-                "Puxe em direção ao abdômen",
+                "Flexione levemente os joelhos e incline o tronco",
+                "Puxe a barra até tocar o abdômen",
+                "Retorne controladamente à posição inicial"
+              ],
+              dicas: [
                 "Mantenha as costas retas",
+                "Puxe com os cotovelos próximos ao corpo",
+                "Contraia as escápulas no topo do movimento"
+              ]
+            },
+            {
+              nome: "Puxador frente + fechado",
+              series: 4,
+              repeticoes: 8,
+              descanso: "45 segs",
+              musculo_alvo: "Dorsal",
+              instrucoes: [
+                "Segure a barra com pegada aberta",
+                "Incline levemente o tronco para trás",
+                "Puxe a barra até a altura do queixo",
                 "Retorne controladamente"
               ],
               dicas: [
-                "Mantenha os cotovelos próximos",
-                "Foque na contração das costas",
+                "Mantenha os cotovelos apontando para baixo",
+                "Visualize puxando com os cotovelos",
+                "Contraia as costas no final do movimento"
+              ]
+            },
+            {
+              nome: "Cavalinha aparelho",
+              series: 4,
+              repeticoes: 8,
+              descanso: "45 segs",
+              musculo_alvo: "Trapézio",
+              instrucoes: [
+                "Segure o aparelho com as mãos",
+                "Eleve o tronco",
+                "Mantenha o tronco ereto",
+                "Retorne controladamente"
+              ],
+              dicas: [
+                "Mantenha o tronco ereto",
+                "Foque na contração do trapézio",
                 "Evite usar impulso"
+              ]
+            },
+            {
+              nome: "Rosca direta barra reta",
+              series: 6,
+              repeticoes: 8,
+              descanso: "50 segs",
+              musculo_alvo: "Bíceps",
+              instrucoes: [
+                "Segure a barra com pegada supinada",
+                "Flexione os cotovelos",
+                "Mantenha os cotovelos junto ao corpo",
+                "Retorne controladamente"
+              ],
+              dicas: [
+                "Mantenha os punhos retos",
+                "Evite usar impulso",
+                "Foque na contração do bíceps"
               ]
             },
             {
               nome: "Rosca alternada",
-              series: 4,
-              repeticoes: 10,
-              descanso: "90 segs",
+              series: 6,
+              repeticoes: 8,
+              descanso: "50 segs",
+              musculo_alvo: "Bíceps",
               instrucoes: [
                 "Segure os halteres ao lado do corpo",
                 "Alterne os braços na execução",
@@ -549,49 +382,34 @@ export const workoutData = {
               ]
             },
             {
-              nome: "Rosca martelo corda cross",
-              series: 4,
-              repeticoes: 15,
-              descanso: "90 segs",
+              nome: "Rosca inversa",
+              series: 3,
+              repeticoes: 10,
+              descanso: "45 segs",
+              musculo_alvo: "Braquiorradial",
               instrucoes: [
-                "Segure a corda com pegada neutra",
+                "Segure a barra com pegada pronada",
                 "Flexione os cotovelos",
                 "Mantenha os cotovelos junto ao corpo",
                 "Retorne controladamente"
               ],
               dicas: [
-                "Mantenha os punhos neutros",
+                "Mantenha os punhos firmes",
                 "Evite usar impulso",
                 "Foque na contração do bíceps"
-              ]
-            },
-            {
-              nome: "Rosca inversa",
-              series: 4,
-              repeticoes: 15,
-              descanso: "90 segs",
-              instrucoes: [
-                "Segure a barra com pegada supinada",
-                "Flexione os cotovelos",
-                "Mantenha os cotovelos junto ao corpo",
-                "Retorne controladamente"
-              ],
-              dicas: [
-                "Mantenha os punhos alinhados",
-                "Evite usar impulso",
-                "Foque na contração do antebraço"
               ]
             }
           ]
         },
         E: {
-          grupo_muscular: "Inferior",
+          grupo_muscular: "Glúteos e Quadríceps",
           exercicios: [
             {
               nome: "Agachamento livre",
-              series: 8,
+              series: 4,
               repeticoes: 8,
-              descanso: "90 se gs",
+              descanso: "90 segs",
+              musculo_alvo: "Quadríceps, glúteos e isquiotibiais",
               instrucoes: [
                 "Posicione a barra nos ombros",
                 "Flexione os joelhos e quadris",
@@ -606,9 +424,10 @@ export const workoutData = {
             },
             {
               nome: "Cadeira extensora",
-              series: 8,
-              repeticoes: 8,
+              series: 3,
+              repeticoes: "10 (10 segs isometria nas 4 últimas)",
               descanso: "90 segs",
+              musculo_alvo: "Quadríceps",
               instrucoes: [
                 "Sente-se com as costas apoiadas",
                 "Estenda os joelhos completamente",
@@ -623,9 +442,10 @@ export const workoutData = {
             },
             {
               nome: "Leg press",
-              series: 8,
-              repeticoes: 8,
+              series: 4,
+              repeticoes: "8 (3 segs isometria em todas)",
               descanso: "90 segs",
+              musculo_alvo: "Quadríceps e glúteos",
               instrucoes: [
                 "Posicione os pés na plataforma",
                 "Flexione os joelhos completamente",
@@ -639,44 +459,29 @@ export const workoutData = {
               ]
             },
             {
-              nome: "Búlgaro",
-              series: 8,
-              repeticoes: 8,
+              nome: "Cadeira abdutora",
+              series: 4,
+              repeticoes: "15-20-25-15",
               descanso: "90 segs",
+              musculo_alvo: "Glúteo médio e mínimo",
               instrucoes: [
-                "Apoie um pé no banco atrás",
-                "Flexione o joelho da frente",
-                "Mantenha o tronco ereto",
-                "Alterne as pernas"
-              ],
-              dicas: [
-                "Mantenha o equilíbrio",
-                "Alinhe o joelho com o pé",
-                "Foque na contração da perna da frente"
-              ]
-            },
-            {
-              nome: "Mesa flexora",
-              series: 8,
-              repeticoes: 8,
-              descanso: "90 segs",
-              instrucoes: [
-                "Deite na mesa flexora",
-                "Flexione os joelhos completamente",
+                "Sente-se com as costas apoiadas",
+                "Junte as pernas contra a resistência",
                 "Faça uma pausa na contração",
                 "Retorne controladamente"
               ],
               dicas: [
-                "Mantenha os quadris fixos",
-                "Foque na contração dos posteriores",
+                "Mantenha as costas apoiadas",
+                "Foque na parte interna das coxas",
                 "Evite usar impulso"
               ]
             },
             {
-              nome: "Pélvica barra",
-              series: 8,
-              repeticoes: 8,
+              nome: "Pélvica",
+              series: 5,
+              repeticoes: "10-12-15-falha-falha",
               descanso: "90 segs",
+              musculo_alvo: "Glúteo máximo e isquiotibiais",
               instrucoes: [
                 "Deite no chão com os joelhos flexionados",
                 "Posicione a barra sobre o quadril",
@@ -690,37 +495,21 @@ export const workoutData = {
               ]
             },
             {
-              nome: "Recuo com halteres",
-              series: 8,
-              repeticoes: 8,
+              nome: "Avanço com peso",
+              series: 3,
+              repeticoes: "Voltas",
               descanso: "90 segs",
+              musculo_alvo: "Quadríceps, glúteos e isquiotibiais",
               instrucoes: [
-                "Segure os halteres ao lado do corpo",
-                "Dê um passo para trás",
-                "Flexione os joelhos até 90 graus",
-                "Retorne à posição inicial"
+                "Posicione-se em pé sob a barra do smith",
+                "Dê um passo à frente mantendo o tronco ereto",
+                "Flexione os joelhos até formar um ângulo de 90°",
+                "Retorne à posição inicial empurrando através do calcanhar"
               ],
               dicas: [
-                "Mantenha o tronco ereto",
-                "Alinhe os joelhos com os pés",
-                "Alterne as pernas"
-              ]
-            },
-            {
-              nome: "Panturrilha",
-              series: 8,
-              repeticoes: 8,
-              descanso: "90 segs",
-              instrucoes: [
-                "Posicione-se na máquina",
-                "Eleve os calcanhares",
-                "Faça uma pausa no topo",
-                "Desça controladamente"
-              ],
-              dicas: [
-                "Faça o movimento completo",
-                "Mantenha os joelhos levemente flexionados",
-                "Foque na contração dos gêmeos"
+                "Mantenha o joelho alinhado com o pé da frente",
+                "Não deixe o joelho ultrapassar a ponta do pé",
+                "Mantenha o core ativado durante todo o movimento"
               ]
             }
           ]
@@ -811,216 +600,14 @@ export const workoutData = {
     name: "Bruno",
     treinos: {
       A: {
-        grupo_muscular: "peitoral/tríceps",
+        grupo_muscular: "Ombro e Abdômen",
         exercicios: [
           {
-            nome: "Supino reto",
-            series: 4,
-            repeticoes: 10,
-            musculo_alvo: "Peitoral maior superior",
-            descanso: "1 min",
-            instrucoes: [
-              "Deite no banco com pés apoiados no chão",
-              "Pegada na barra pouco mais larga que os ombros",
-              "Desça a barra controladamente até o peito",
-              "Empurre a barra para cima"
-            ],
-            dicas: [
-              "Mantenha os cotovelos a 45° do corpo",
-              "Escápulas retraídas no banco",
-              "Respire: inspire na descida, expire na subida"
-            ]
-          },
-          {
-            nome: "Supino inclinado com halteres",
-            series: 4,
-            repeticoes: 8,
-            musculo_alvo: "Peitoral maior superior",
-            descanso: "1 min",
-            instrucoes: [
-              "Ajuste o banco a 30-45 graus",
-              "Segure os halteres ao lado do peito",
-              "Pressione para cima e junte os halteres no topo",
-              "Desça controladamente abrindo os cotovelos"
-            ],
-            dicas: [
-              "Mantenha os punhos retos",
-              "Não bata os halteres no topo",
-              "Foque na contração do peito"
-            ]
-          },
-          {
-            nome: "Peck deck",
-            series: 4,
-            repeticoes: 12,
-            musculo_alvo: "Peitoral maior",
-            descanso: "1 min",
-            instrucoes: [
-              "Ajuste o banco para altura adequada",
-              "Segure as alavancas com os cotovelos flexionados",
-              "Junte os braços à frente do corpo",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Mantenha as costas apoiadas",
-              "Foque na contração do peitoral",
-              "Evite usar impulso"
-            ]
-          },
-          {
-            nome: "Crucifixo reto",
+            nome: "Frontal neutra + frontal halteres",
             series: 3,
             repeticoes: 15,
-            musculo_alvo: "Peitoral",
-            descanso: "5 segs",
-            instrucoes: [
-              "Deite no banco com os braços abertos",
-              "Mantenha leve flexão nos cotovelos",
-              "Eleve os halteres até se encontrarem",
-              "Desça controladamente"
-            ],
-            dicas: [
-              "Mantenha a mesma flexão nos cotovelos",
-              "Foque na contração do peitoral",
-              "Controle o movimento na descida"
-            ]
-          },
-          {
-            nome: "Tríceps corda cross",
-            series: 4,
-            repeticoes: 15,
-            musculo_alvo: "Tríceps braquial",
-            descanso: "1 min",
-            instrucoes: [
-              "Segure as pontas da corda",
-              "Mantenha os cotovelos junto ao corpo",
-              "Estenda os braços completamente",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Mantenha os cotovelos fixos",
-              "Abra levemente as pontas da corda",
-              "Foque na contração do tríceps"
-            ]
-          },
-          {
-            nome: "Francesa halteres",
-            series: 4,
-            repeticoes: 12,
-            musculo_alvo: "Tríceps braquial",
-            instrucoes: [
-              "Deite no banco segurando os halteres",
-              "Flexione os cotovelos até 90 graus",
-              "Estenda os braços",
-              "Mantenha os cotovelos apontados para cima"
-            ],
-            dicas: [
-              "Mantenha os cotovelos estáveis",
-              "Não deixe os halteres baterem",
-              "Foque na contração do tríceps"
-            ]
-          },
-          {
-            nome: "Tríceps pulley",
-            series: 4,
-            repeticoes: 15,
-            musculo_alvo: "Tríceps braquial",
-            descanso: "1 min",
-            instrucoes: [
-              "Segure a barra com pegada pronada",
-              "Mantenha os cotovelos junto ao corpo",
-              "Estenda completamente os braços",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Mantenha os cotovelos fixos",
-              "Evite usar impulso",
-              "Foque na contração do tríceps"
-            ]
-          }
-        ]
-      },
-      B: {
-        grupo_muscular: "costas/posterior de ombro/bíceps",
-        exercicios: [
-          {
-            nome: "Puxador frente",
-            series: 4,
-            repeticoes: 8,
-            musculo_alvo: "Latíssimo do dorso/Trapézio",
-            descanso: "1 min",
-            instrucoes: [
-              "Segure a barra com pegada aberta",
-              "Incline levemente o tronco para trás",
-              "Puxe a barra até a altura do queixo",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Mantenha os cotovelos apontando para baixo",
-              "Visualize puxando com os cotovelos",
-              "Contraia as costas no final do movimento"
-            ]
-          },
-          {
-            nome: "Remada baixa triângulo",
-            series: 4,
-            repeticoes: 12,
-            musculo_alvo: "Retratores das escápulas",
-            descanso: "1 min",
-            instrucoes: [
-              "Segure o triângulo com braços estendidos",
-              "Puxe em direção ao abdômen",
-              "Aproxime as escápulas",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Mantenha o peito aberto",
-              "Foque na contração das costas",
-              "Evite usar impulso"
-            ]
-          },
-          {
-            nome: "Serrote",
-            series: 4,
-            repeticoes: 15,
-            musculo_alvo: "Dorsal",
-            descanso: "1 min",
-            instrucoes: [
-              "Apoie um joelho e mão no banco",
-              "Mantenha as costas paralelas ao chão",
-              "Puxe o halter até o quadril",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Mantenha o cotovelo próximo ao corpo",
-              "Evite rotação do tronco",
-              "Foque na contração do dorsal"
-            ]
-          },
-          {
-            nome: "Puxador frente triângulo",
-            series: 4,
-            repeticoes: 12,
-            musculo_alvo: "Latíssimo do dorso",
-            descanso: "1 min",
-            instrucoes: [
-              "Segure o triângulo com pegada neutra",
-              "Puxe até o peito",
-              "Mantenha os cotovelos próximos",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Mantenha o peito elevado",
-              "Foque na contração das costas",
-              "Evite usar impulso"
-            ]
-          },
-          {
-            nome: "Extensão de ombro",
-            series: 4,
-            repeticoes: 12,
-            musculo_alvo: "Deltoide feixe posterior/Anterior/Porção média",
-            descanso: "1 min",
+            descanso: "45 segs",
+            musculo_alvo: "Deltóide anterior",
             instrucoes: [
               "Incline o tronco para frente",
               "Mantenha os braços estendidos",
@@ -1034,255 +621,11 @@ export const workoutData = {
             ]
           },
           {
-            nome: "Rosca simultânea halteres",
-            series: 2,
-            repeticoes: 15,
-            musculo_alvo: "Bíceps braquial",
-            descanso: "1 min",
-            instrucoes: [
-              "Segure os halteres ao lado do corpo",
-              "Flexione ambos os braços simultaneamente",
-              "Mantenha os cotovelos junto ao corpo",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Mantenha os punhos retos",
-              "Evite usar impulso",
-              "Foque na contração do bíceps"
-            ]
-          },
-          {
-            nome: "Rosca alternada",
-            series: 3,
-            repeticoes: 15,
-            musculo_alvo: "Bíceps braquial",
-            descanso: "1 min",
-            instrucoes: [
-              "Segure os halteres ao lado do corpo",
-              "Alterne os braços na execução",
-              "Mantenha os cotovelos fixos",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Evite balançar o corpo",
-              "Mantenha os punhos retos",
-              "Foque na contração do bíceps"
-            ]
-          },
-          {
-            nome: "Rosca direta barra reta",
-            series: 3,
-            repeticoes: 10,
-            musculo_alvo: "Bíceps braquial",
-            descanso: "1 min",
-            instrucoes: [
-              "Segure a barra com pegada supinada",
-              "Flexione os cotovelos",
-              "Mantenha os cotovelos junto ao corpo",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Mantenha os punhos retos",
-              "Evite usar impulso",
-              "Foque na contração do bíceps"
-            ]
-          }
-        ]
-      },
-      C: {
-        grupo_muscular: "pernas",
-        exercicios: [
-          {
-            nome: "Leg press",
-            series: 3,
-            repeticoes: 10,
-            musculo_alvo: "Quadríceps",
-            descanso: "40 segs",
-            instrucoes: [
-              "Posicione os pés na plataforma",
-              "Flexione os joelhos completamente",
-              "Empurre o peso controladamente",
-              "Não trave os joelhos no topo"
-            ],
-            dicas: [
-              "Mantenha os pés alinhados",
-              "Respire adequadamente",
-              "Mantenha a lombar apoiada"
-            ]
-          },
-          {
-            nome: "Agachamento Hack",
+            nome: "Lateral",
             series: 4,
-            repeticoes: 10,
-            musculo_alvo: "Quadríceps",
-            descanso: "2 min",
-            instrucoes: [
-              "Posicione-se na máquina",
-              "Flexione os joelhos",
-              "Mantenha o tronco reto",
-              "Empurre através dos calcanhares"
-            ],
-            dicas: [
-              "Mantenha os joelhos alinhados",
-              "Desça até onde for confortável",
-              "Foque na contração do quadríceps"
-            ]
-          },
-          {
-            nome: "Cadeira extensora",
-            series: 4,
-            repeticoes: 15,
-            musculo_alvo: "Quadríceps",
-            descanso: "1 min",
-            instrucoes: [
-              "Ajuste o encosto e apoio",
-              "Estenda completamente os joelhos",
-              "Faça uma pausa no topo",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Mantenha os pés alinhados",
-              "Foque na contração do quadríceps",
-              "Evite usar impulso"
-            ]
-          },
-          {
-            nome: "Mesa flexora",
-            series: 4,
-            repeticoes: 15,
-            musculo_alvo: "Isquiotibiais",
-            descanso: "1 min",
-            instrucoes: [
-              "Deite na mesa flexora",
-              "Flexione os joelhos completamente",
-              "Faça uma pausa na contração",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Mantenha os quadris fixos",
-              "Foque na contração dos posteriores",
-              "Evite usar impulso"
-            ]
-          },
-          {
-            nome: "Flexora em pé",
-            series: 4,
-            repeticoes: 8,
-            musculo_alvo: "Isquiotibiais",
-            descanso: "1 min",
-            instrucoes: [
-              "Posicione-se na máquina",
-              "Flexione o joelho ao máximo",
-              "Mantenha o quadril estável",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Mantenha o tronco reto",
-              "Evite compensar com o quadril",
-              "Foque na contração do posterior"
-            ]
-          },
-          {
-            nome: "Cadeira adutora",
-            series: 4,
-            repeticoes: 12,
-            musculo_alvo: "Adutores",
-            descanso: "1 min",
-            instrucoes: [
-              "Sente-se com as costas apoiadas",
-              "Junte as pernas contra a resistência",
-              "Faça uma pausa na contração",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Mantenha as costas apoiadas",
-              "Foque na parte interna das coxas",
-              "Evite usar impulso"
-            ]
-          },
-          {
-            nome: "Panturrilha gêmeos",
-            series: 3,
-            repeticoes: 15,
-            musculo_alvo: "Gastrocnêmio",
-            descanso: "1 min",
-            instrucoes: [
-              "Posicione-se na máquina",
-              "Eleve os calcanhares",
-              "Faça uma pausa no topo",
-              "Desça controladamente"
-            ],
-            dicas: [
-              "Faça o movimento completo",
-              "Mantenha os joelhos levemente flexionados",
-              "Foque na contração dos gêmeos"
-            ]
-          }
-        ]
-      },
-      D: {
-        grupo_muscular: "peitoral/tríceps/ombro",
-        exercicios: [
-          {
-            nome: "Supino ap.",
-            series: 4,
-            repeticoes: 10,
-            musculo_alvo: "Peitoral maior",
-            descanso: "1 min",
-            instrucoes: [
-              "Deite no banco",
-              "Pegada na largura dos ombros",
-              "Desça a barra até o peito",
-              "Empurre para cima"
-            ],
-            dicas: [
-              "Mantenha os cotovelos a 45°",
-              "Respire adequadamente",
-              "Foque na contração do peito"
-            ]
-          },
-          {
-            nome: "Crucifixo reto",
-            series: 4,
-            repeticoes: 15,
-            musculo_alvo: "Peitoral",
-            descanso: "1 min",
-            instrucoes: [
-              "Deite com os braços abertos",
-              "Mantenha leve flexão nos cotovelos",
-              "Eleve os halteres até se encontrarem",
-              "Desça controladamente"
-            ],
-            dicas: [
-              "Mantenha a mesma flexão nos cotovelos",
-              "Foque na contração do peitoral",
-              "Controle o movimento na descida"
-            ]
-          },
-          {
-            nome: "Voador",
-            series: 4,
-            repeticoes: 15,
-            musculo_alvo: "Peitoral",
-            descanso: "1 min",
-            instrucoes: [
-              "Ajuste o banco e pegadores",
-              "Mantenha os cotovelos flexionados",
-              "Junte os braços à frente",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Mantenha as costas apoiadas",
-              "Foque na contração do peitoral",
-              "Evite usar impulso"
-            ]
-          },
-          {
-            nome: "Elevação lateral",
-            series: 3,
-            repeticoes: "8 a 12",
-            musculo_alvo: "Deltoide lateral",
-            descanso: "2 min",
+            repeticoes: "8-9-10-11 (subindo carga)",
+            descanso: "50 segs",
+            musculo_alvo: "Deltóide lateral",
             instrucoes: [
               "Em pé, segure os halteres",
               "Eleve os braços lateralmente",
@@ -1296,29 +639,124 @@ export const workoutData = {
             ]
           },
           {
-            nome: "Elevação frontal",
+            nome: "Desenvolvimento halteres",
             series: 4,
-            repeticoes: 15,
-            musculo_alvo: "Deltoide anterior",
-            descanso: "1 min",
+            repeticoes: 12,
+            descanso: "50 segs",
+            musculo_alvo: "Deltóide",
             instrucoes: [
-              "Em pé, segure os halteres",
-              "Eleve os braços à frente",
-              "Mantenha leve flexão nos cotovelos",
+              "Incline o tronco para frente",
+              "Mantenha os braços estendidos",
+              "Eleve os braços até a linha dos ombros",
+              "Retorne controladamente"
+            ],
+            dicas: [
+              "Mantenha o core ativado",
+              "Foque na contração dos deltoides",
+              "Evite usar impulso"
+            ]
+          },
+          {
+            nome: "Panturrilha gêmeos",
+            series: 4,
+            repeticoes: 10,
+            descanso: "50 segs",
+            musculo_alvo: "Gastrocnêmio",
+            instrucoes: [
+              "Posicione-se na máquina",
+              "Eleve os calcanhares",
+              "Faça uma pausa no topo",
               "Desça controladamente"
             ],
             dicas: [
-              "Evite usar impulso",
-              "Mantenha o core ativado",
-              "Alterne os braços se necessário"
+              "Faça o movimento completo",
+              "Mantenha os joelhos levemente flexionados",
+              "Foque na contração dos gêmeos"
+            ]
+          },
+          {
+            nome: "Abs remador",
+            series: 4,
+            repeticoes: 10,
+            descanso: "45 segs",
+            musculo_alvo: "Abdômen",
+            instrucoes: [
+              "Deite no chão com os joelhos flexionados",
+              "Posicione a barra sobre o quadril",
+              "Eleve o tronco completamente",
+              "Retorne controladamente"
+            ],
+            dicas: [
+              "Mantenha os glúteos contraídos",
+              "Evite arquear a lombar",
+              "Foque na contração do abdômen"
+            ]
+          }
+        ]
+      },
+      B: {
+        grupo_muscular: "Peitoral e Tríceps",
+        exercicios: [
+          {
+            nome: "Supino reto",
+            series: 4,
+            repeticoes: 8,
+            descanso: "45 segs",
+            musculo_alvo: "Peitoral maior",
+            instrucoes: [
+              "Deite no banco com pés apoiados no chão",
+              "Pegada na barra pouco mais larga que os ombros",
+              "Desça a barra controladamente até o peito",
+              "Empurre a barra para cima"
+            ],
+            dicas: [
+              "Mantenha os cotovelos a 45° do corpo",
+              "Escápulas retraídas no banco",
+              "Respire: inspire na descida, expire na subida"
+            ]
+          },
+          {
+            nome: "Supino inclinado",
+            series: 4,
+            repeticoes: 8,
+            descanso: "45 segs",
+            musculo_alvo: "Peitoral superior",
+            instrucoes: [
+              "Ajuste o banco a 30-45 graus",
+              "Segure os halteres ao lado do peito",
+              "Pressione para cima e junte os halteres no topo",
+              "Desça controladamente abrindo os cotovelos"
+            ],
+            dicas: [
+              "Mantenha os punhos retos",
+              "Não bata os halteres no topo",
+              "Foque na contração do peito"
+            ]
+          },
+          {
+            nome: "Crucifixo",
+            series: 4,
+            repeticoes: 8,
+            descanso: "45 segs",
+            musculo_alvo: "Peitoral",
+            instrucoes: [
+              "Deite no banco com os braços abertos",
+              "Mantenha leve flexão nos cotovelos",
+              "Eleve os halteres até se encontrarem",
+              "Desça controladamente"
+            ],
+            dicas: [
+              "Mantenha a mesma flexão nos cotovelos",
+              "Foque na contração do peitoral",
+              "Controle o movimento na descida"
             ]
           },
           {
             nome: "Tríceps pulley",
             series: 4,
             repeticoes: 15,
+            descanso: "45 segs",
             musculo_alvo: "Tríceps braquial",
-            descanso: "1 min",
             instrucoes: [
               "Segure a barra com pegada pronada",
               "Mantenha os cotovelos junto ao corpo",
@@ -1332,124 +770,219 @@ export const workoutData = {
             ]
           },
           {
-            nome: "Francesa",
+            nome: "Francesa + banco",
             series: 4,
-            repeticoes: 12,
+            repeticoes: 10,
+            descanso: "45 segs",
             musculo_alvo: "Tríceps braquial",
-            descanso: "1 min",
             instrucoes: [
-              "Deite no banco",
-              "Segure o halter acima da cabeça",
-              "Flexione os cotovelos",
-              "Estenda os braços"
+              "Deite no banco segurando os halteres",
+              "Flexione os cotovelos até 90 graus",
+              "Estenda os braços",
+              "Mantenha os cotovelos apontados para cima"
             ],
             dicas: [
-              "Mantenha os cotovelos apontados para cima",
-              "Controle o movimento",
+              "Mantenha os cotovelos estáveis",
+              "Não deixe os halteres baterem",
               "Foque na contração do tríceps"
             ]
           }
         ]
       },
-      E: {
-        grupo_muscular: "costas/bíceps",
+      C: {
+        grupo_muscular: "Perna Completa",
         exercicios: [
           {
-            nome: "Remada baixa",
+            nome: "Leg press",
+            series: 4,
+            repeticoes: 10,
+            descanso: "50 segs",
+            musculo_alvo: "Quadríceps e glúteos",
+            instrucoes: [
+              "Posicione os pés na plataforma",
+              "Flexione os joelhos completamente",
+              "Empurre o peso controladamente",
+              "Não trave os joelhos no topo"
+            ],
+            dicas: [
+              "Mantenha os pés alinhados",
+              "Respire adequadamente",
+              "Mantenha a lombar apoiada"
+            ]
+          },
+          {
+            nome: "Hack",
+            series: 4,
+            repeticoes: 10,
+            descanso: "50 segs",
+            musculo_alvo: "Quadríceps",
+            instrucoes: [
+              "Posicione-se na máquina",
+              "Flexione os joelhos",
+              "Mantenha o tronco reto",
+              "Empurre através dos calcanhares"
+            ],
+            dicas: [
+              "Mantenha os joelhos alinhados",
+              "Desça até onde for confortável",
+              "Foque na contração do quadríceps"
+            ]
+          },
+          {
+            nome: "Mesa flexora",
+            series: 4,
+            repeticoes: 10,
+            descanso: "50 segs",
+            musculo_alvo: "Isquiotibiais",
+            instrucoes: [
+              "Deite na mesa flexora",
+              "Flexione os joelhos completamente",
+              "Faça uma pausa na contração",
+              "Retorne controladamente"
+            ],
+            dicas: [
+              "Mantenha os quadris fixos",
+              "Foque na contração dos posteriores",
+              "Evite usar impulso"
+            ]
+          },
+          {
+            nome: "Adutora",
             series: 4,
             repeticoes: 12,
-            musculo_alvo: "Escapular",
-            descanso: "2 min",
+            descanso: "50 segs",
+            musculo_alvo: "Adutores",
             instrucoes: [
-              "Sente-se com os pés apoiados",
+              "Sente-se com as costas apoiadas",
+              "Junte as pernas contra a resistência",
+              "Faça uma pausa na contração",
+              "Retorne controladamente"
+            ],
+            dicas: [
+              "Mantenha as costas apoiadas",
+              "Foque na parte interna das coxas",
+              "Evite usar impulso"
+            ]
+          },
+          {
+            nome: "Cadeira extensora",
+            series: 10,
+            repeticoes: 10,
+            descanso: "50 segs",
+            musculo_alvo: "Quadríceps",
+            instrucoes: [
+              "Ajuste o encosto e apoio",
+              "Estenda completamente os joelhos",
+              "Faça uma pausa no topo",
+              "Retorne controladamente"
+            ],
+            dicas: [
+              "Mantenha os pés alinhados",
+              "Foque na contração do quadríceps",
+              "Evite usar impulso"
+            ]
+          }
+        ]
+      },
+      D: {
+        grupo_muscular: "Costas e Bíceps",
+        exercicios: [
+          {
+            nome: "Remada curvada",
+            series: 4,
+            repeticoes: 8,
+            descanso: "45 segs",
+            musculo_alvo: "Dorsal",
+            instrucoes: [
               "Segure a barra com pegada pronada",
-              "Puxe em direção ao abdômen",
-              "Retorne controladamente"
+              "Flexione levemente os joelhos e incline o tronco",
+              "Puxe a barra até tocar o abdômen",
+              "Retorne controladamente à posição inicial"
             ],
             dicas: [
               "Mantenha as costas retas",
-              "Foque na contração das costas",
+              "Puxe com os cotovelos próximos ao corpo",
+              "Contraia as escápulas no topo do movimento"
+            ]
+          },
+          {
+            nome: "Puxador frente + fechado",
+            series: 4,
+            repeticoes: 8,
+            descanso: "45 segs",
+            musculo_alvo: "Dorsal",
+            instrucoes: [
+              "Segure a barra com pegada aberta",
+              "Incline levemente o tronco para trás",
+              "Puxe a barra até a altura do queixo",
+              "Retorne controladamente"
+            ],
+            dicas: [
+              "Mantenha os cotovelos apontando para baixo",
+              "Visualize puxando com os cotovelos",
+              "Contraia as costas no final do movimento"
+            ]
+          },
+          {
+            nome: "Cavalinha aparelho",
+            series: 4,
+            repeticoes: 8,
+            descanso: "45 segs",
+            musculo_alvo: "Trapézio",
+            instrucoes: [
+              "Segure o aparelho com as mãos",
+              "Eleve o tronco",
+              "Mantenha o tronco ereto",
+              "Retorne controladamente"
+            ],
+            dicas: [
+              "Mantenha o tronco ereto",
+              "Foque na contração do trapézio",
               "Evite usar impulso"
             ]
           },
           {
-            nome: "Puxador barra coice",
-            series: 4,
-            repeticoes: 15,
-            musculo_alvo: "Latíssimo do dorso",
-            descanso: "1 min",
+            nome: "Rosca direta barra reta",
+            series: 6,
+            repeticoes: 8,
+            descanso: "50 segs",
+            musculo_alvo: "Bíceps",
             instrucoes: [
-              "Segure a barra com pegada neutra",
-              "Puxe os cotovelos para trás",
-              "Mantenha o tronco estável",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Mantenha o peito aberto",
-              "Foque na contração das costas",
-              "Evite rotação do tronco"
-            ]
-          },
-          {
-            nome: "Remada curvada corda",
-            series: 4,
-            repeticoes: 10,
-            musculo_alvo: "Romboides",
-            descanso: "1 min",
-            instrucoes: [
-              "Segure a corda com pegada neutra",
-              "Incline o tronco para frente",
-              "Puxe a corda em direção ao abdômen",
-              "Retorne controladamente"
-            ],
-            dicas: [
-              "Mantenha as costas retas",
-              "Foque na contração das costas",
-              "Evite usar impulso"
-            ]
-          },
-          {
-            nome: "Scott ap.",
-            series: 4,
-            repeticoes: 10,
-            musculo_alvo: "Bíceps braquial",
-            descanso: "1 min",
-            instrucoes: [
-              "Ajuste o banco Scott",
               "Segure a barra com pegada supinada",
-              "Flexione completamente os cotovelos",
+              "Flexione os cotovelos",
+              "Mantenha os cotovelos junto ao corpo",
               "Retorne controladamente"
             ],
             dicas: [
-              "Mantenha os cotovelos apoiados",
+              "Mantenha os punhos retos",
               "Evite usar impulso",
               "Foque na contração do bíceps"
             ]
           },
           {
-            nome: "Rosca zotman + rosca martelo",
-            series: 3,
-            repeticoes: 12,
-            musculo_alvo: "Bíceps braquial",
-            descanso: "1 min",
+            nome: "Rosca alternada",
+            series: 6,
+            repeticoes: 8,
+            descanso: "50 segs",
+            musculo_alvo: "Bíceps",
             instrucoes: [
-              "Alterne entre os dois movimentos",
-              "Mantenha os cotovelos junto ao corpo",
-              "Execute os movimentos controladamente",
-              "Retorne à posição inicial"
+              "Segure os halteres ao lado do corpo",
+              "Alterne os braços na execução",
+              "Mantenha os cotovelos fixos",
+              "Retorne controladamente"
             ],
             dicas: [
-              "Mantenha os punhos firmes",
-              "Evite usar impulso",
+              "Evite balançar o corpo",
+              "Mantenha os punhos retos",
               "Foque na contração do bíceps"
             ]
           },
           {
             nome: "Rosca inversa",
             series: 3,
-            repeticoes: 15,
+            repeticoes: 10,
+            descanso: "45 segs",
             musculo_alvo: "Braquiorradial",
-            descanso: "1 min",
             instrucoes: [
               "Segure a barra com pegada pronada",
               "Flexione os cotovelos",
@@ -1460,6 +993,101 @@ export const workoutData = {
               "Mantenha os punhos firmes",
               "Evite usar impulso",
               "Foque na contração do bíceps"
+            ]
+          }
+        ]
+      },
+      E: {
+        grupo_muscular: "Peitoral e Tríceps",
+        exercicios: [
+          {
+            nome: "Supino reto",
+            series: 4,
+            repeticoes: 8,
+            descanso: "45 segs",
+            musculo_alvo: "Peitoral maior",
+            instrucoes: [
+              "Deite no banco com pés apoiados no chão",
+              "Pegada na barra pouco mais larga que os ombros",
+              "Desça a barra controladamente até o peito",
+              "Empurre a barra para cima"
+            ],
+            dicas: [
+              "Mantenha os cotovelos a 45° do corpo",
+              "Escápulas retraídas no banco",
+              "Respire: inspire na descida, expire na subida"
+            ]
+          },
+          {
+            nome: "Supino inclinado",
+            series: 4,
+            repeticoes: 8,
+            descanso: "45 segs",
+            musculo_alvo: "Peitoral superior",
+            instrucoes: [
+              "Ajuste o banco a 30-45 graus",
+              "Segure os halteres ao lado do peito",
+              "Pressione para cima e junte os halteres no topo",
+              "Desça controladamente abrindo os cotovelos"
+            ],
+            dicas: [
+              "Mantenha os punhos retos",
+              "Não bata os halteres no topo",
+              "Foque na contração do peito"
+            ]
+          },
+          {
+            nome: "Crucifixo",
+            series: 4,
+            repeticoes: 8,
+            descanso: "45 segs",
+            musculo_alvo: "Peitoral",
+            instrucoes: [
+              "Deite no banco com os braços abertos",
+              "Mantenha leve flexão nos cotovelos",
+              "Eleve os halteres até se encontrarem",
+              "Desça controladamente"
+            ],
+            dicas: [
+              "Mantenha a mesma flexão nos cotovelos",
+              "Foque na contração do peitoral",
+              "Controle o movimento na descida"
+            ]
+          },
+          {
+            nome: "Tríceps pulley",
+            series: 4,
+            repeticoes: 15,
+            descanso: "45 segs",
+            musculo_alvo: "Tríceps braquial",
+            instrucoes: [
+              "Segure a barra com pegada pronada",
+              "Mantenha os cotovelos junto ao corpo",
+              "Estenda completamente os braços",
+              "Retorne controladamente"
+            ],
+            dicas: [
+              "Mantenha os cotovelos fixos",
+              "Evite usar impulso",
+              "Foque na contração do tríceps"
+            ]
+          },
+          {
+            nome: "Francesa + banco",
+            series: 4,
+            repeticoes: 10,
+            descanso: "45 segs",
+            musculo_alvo: "Tríceps braquial",
+            instrucoes: [
+              "Deite no banco segurando os halteres",
+              "Flexione os cotovelos até 90 graus",
+              "Estenda os braços",
+              "Mantenha os cotovelos apontados para cima"
+            ],
+            dicas: [
+              "Mantenha os cotovelos estáveis",
+              "Não deixe os halteres baterem",
+              "Foque na contração do tríceps"
             ]
           }
         ]
